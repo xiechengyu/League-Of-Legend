@@ -1,0 +1,211 @@
+
+.tab{ position: relative; height: 50px; border-bottom: 3px solid #ededee;}
+.tab-title{ float: left; font-size: 26px; line-height: 50px; color: #404040; margin-right: 0px; font-weight: normal;margin-top: 5px;}
+.tab-nav{ float: left; margin-top: 14px; position: relative; height: 36px; }
+.tab-nav li{float: left; height: 36px; line-height: 36px; overflow: hidden; cursor: pointer; color: #666666; font-size: 16px; text-align: center; margin-right: 40px;}
+.tab-nav .current{ color: #d1ab57; font-weight: bold; border-bottom: 3px solid #d1ab57}
+
+.home-mod{ margin-bottom: 50px;}
+.content_bottom_box1
+.recommend{ clear: both}
+.recommend-top{ margin-bottom: 20px;}
+.recommend-nav li{ width: 150px;}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.content_bottom{
+    width: 85%;
+    height: 400px;
+    margin: 0 auto;
+    /*background-color: sandybrown;*/
+}
+.content_bottom_top{
+    width: 100%;
+    height: 60px;
+    /*background-color: cadetblue;*/
+}
+.bottom_content{
+    clear: both;
+}
+.bottom_content div{
+    width: 100%;
+    height: 340px;
+    position: relative;
+    /*box-shadow: 0 2px   0 2px  #ccc;*/
+    box-sizing: border-box;
+    display: none;
+}
+/*.content_bottom_top li{
+    float: left;
+    display: block;
+    font-size: 17px;
+    color: #ccc;
+    padding-left: 10px;
+    padding-right: 10px;
+}*/
+
+.content_bottom_box1 > div{
+
+    position: absolute;
+    width: 15%;
+    height: 50%;
+
+    /*background-color: whitesmoke;*/
+    border-radius: 3px;
+    box-sizing: border-box;
+    display: block;
+}
+/*box1 hover事件*/
+.content_bottom_box1 > div:hover{
+    background: whitesmoke;
+    /*background: url("images/bg-icon-v.png") no-repeat center center;*/
+    opacity: 0.5;
+    z-index: 2;
+}
+.content_bottom_box1 div:hover a{
+    opacity: 1;
+    color: #d1ab57;
+    text-decoration: none;
+}
+/*.content_bottom_box1 div:hover img{
+    opacity:0.8;
+}*/
+
+.content_bottom_box1 span{
+    position: absolute;
+    width: 100%;height:50%;
+    top: 12px;left: 40px;display: block;
+}
+.content_bottom_box1 img{
+    width: 100%;
+}
+.content_bottom_box1 p{
+    margin-top: 5px;
+}
+.content_bottom_box1 p a{
+
+    font-size: 15px;
+    color: gray;
+}
+.content_bottom_box1 > div:nth-child(1){
+    left: 0;
+}
+.content_bottom_box1 > div:nth-child(2){
+    left: 200px;
+}
+.content_bottom_box1 > div:nth-child(3){
+    left: 400px;
+}
+.content_bottom_box1 > div:nth-child(4){
+    left: 600px;
+}
+.content_bottom_box1 > div:nth-child(5){
+    left: 800px;
+}
+.content_bottom_box1 > div:nth-child(6){
+    left: 1000px;
+}
+
+
+.morevideos{
+    text-align: center;
+    font-size: 30px;
+    margin-left: 41%;
+    color: #d1ab57;
+}
+
+.content_bottom_box2 > div:nth-child(1){
+    position: absolute;
+    display: block;
+    width: 23%;
+    height: 80%;
+    left: 1%;
+    background-color: whitesmoke;
+}
+.content_bottom_box2 > div:nth-child(2){
+    position: absolute;
+    display: block;
+    width: 23%;
+    height: 80%;
+    left:26%;
+    background-color: whitesmoke;
+}
+.content_bottom_box2 > div:nth-child(3){
+    position: absolute;
+    display: block;
+    width: 23%;
+    height: 80%;
+    left: 51%;
+    background-color: whitesmoke;
+}
+.content_bottom_box2 > div:nth-child(4){
+    position: absolute;
+    display: block;
+    width: 23%;
+    height: 80%;
+    left: 76%;
+    background-color: whitesmoke;
+}
+
+
+/*底部导航*/
+.lol_bottom{
+
+    width: 100%;
+    height: 220px;
+    background-color: black;
+}
+.lol_bottom_box1{
+    float: left;
+    width: 35%;
+    height: 100%;
+
+    box-sizing: border-box;
+}
+.lol_bottom_box2{
+    margin-left: 35%;
+    width: 65%;
+    height: 100%;
+    border: 1px solid #000;
+    box-sizing: border-box;
+
+}
+.lol_bottom_box2_1{
+    width: 80%;
+    margin: 40px auto;
+}
+.lol_bottom_box2_1 a{
+    display: block;
+    float: left;
+    color: gray;
+    font-size: 12px;
+    border-right: 1px solid #ccc;
+    padding-right:5px;
+    padding-left:5px;
+}
+.lol_bottom_box2_1 a:last-of-type{
+    border-right: none;
+}
+.lol_bottom_box2_1 a:first-of-type{
+    padding-left: 0;
+}
+.lol_bottom_box2_2{
+    width: 80%;
+    margin: 0 auto;
+}
+.lol_bottom_box2_2 a{
+    display: block;
+    float: left;
+    color: gray;
+    font-size: 12px;
+    border-right: 1px solid #ccc;
+    padding-right:5px;
+    padding-left:5px;
+}
+.lol_bottom_box2_2 p{
+    color: gray;
+    font-size: 12px;
+    margin-bottom: -0.3px;
+}

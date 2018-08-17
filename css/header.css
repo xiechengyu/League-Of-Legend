@@ -1,0 +1,264 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.lol_header{
+    width: 100%;
+    height: 440px;
+    /*border-bottom: 2px solid rgb(140,108,45);*/
+    overflow: hidden;
+}
+.lol_header>video{
+    transform:translateX(-150px);
+}
+.lol_header .lol_header_top{
+    width: 100%;
+    height: 20.5%;
+    background: rgb(11,11,11);
+    z-index: 100;
+}
+.lol_header .lol_header_top ul{
+    width: 49%;
+    height: 7%;
+    /*background: yellow;*/
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 18%;
+    margin-top: 1.4%;
+    list-style: none;
+}
+.lol_header .lol_header_top ul li {
+    float: left;
+    margin-right: 23.3px;
+    margin-left: 23.5px;
+}
+.lol_header .lol_header_top ul li a{
+    color: #fff;
+}
+.lol_header .lol_header_top ul li a:hover{
+    text-decoration: none;
+    color: #fff;
+}
+.lol_header .lol_header_top ul li p{
+    font-size: 60% ;
+    text-align: center;
+    color: rgb(131,131,131);
+    margin-top: -7px;
+}
+.lol_header .lol_header_top .sousuo{
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 61%;
+    margin-top: 1.1%;
+}
+.lol_header .lol_header_top .dianhua {
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 64.3%;
+    margin-top: 1.2%;
+}
+.lol_header .lol_header_top .renwu{
+    width: 25%;
+    height: 100%;
+    /*background: #000;*/
+    /*float: left;*/
+    float: right;
+    margin-right: 7.5%;
+    z-index: 200;
+}
+.lol_header .lol_header_top .renwu img{
+    border: 1px solid rgb(223,178,27);
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.lol_header .lol_header_top .renwu h4{
+    position: absolute;
+    left: 0;
+    top: 0;
+    z-index: 100;
+    color: #fff;
+    margin-left: 74.2%;
+    margin-top: 1.6%;
+    font-size: 115%;
+}
+.lol_header .lol_header_top .renwu h4 a{
+    color: rgb(223,178,27);
+    text-decoration: underline;
+}
+.lol_header .lol_header_top .renwu p{
+    color: rgb(131,131,131);
+    margin-left: 91px;
+    font-size: 80%;
+    margin-top: -25px;
+}
+
+.lol_header .lol_header_middle{
+    width: 100%;
+    height: 52%;
+    float: left;
+    z-index: 80;
+    /*margin-top: -1%;*/
+    /*display: none;*/
+    background: rgb(11,11,11);
+    opacity: 0.7;
+    display: none;
+}
+.lol_header .lol_header_middle ul{
+    float: left;
+    list-style: none;
+    margin-top: 2%;
+}
+.lol_header .lol_header_middle ul:nth-child(1){
+    margin-left: 18%;
+}
+.lol_header .lol_header_middle ul:nth-child(2){
+    margin-left: 1.5%;
+}
+.lol_header .lol_header_middle ul:nth-child(3){
+    margin-left: 2.3%;
+}
+.lol_header .lol_header_middle ul:nth-child(4){
+    margin-left: 1.3%;
+}
+.lol_header .lol_header_middle ul:nth-child(5){
+    margin-left: 0.7%;
+}
+.lol_header .lol_header_middle ul li{
+    text-align: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+.lol_header .lol_header_middle ul li a{
+    color: #fff;
+    font-size: 110%;
+}
+.lol_header .lol_header_middle ul li a:hover{
+    text-decoration: none;
+    color: rgb(223,178,27);
+}
+.lol_header .lol_header_bottom{
+    width: 100%;
+    height: 79.5%;
+    /*background: #AA0000;*/
+    z-index: 0;
+    /*overflow: hidden;*/
+}
+.lol_header .lol_header_bottom .logo{
+    /*display: inline-block;*/
+    /*float: left;*/
+    /*margin-top: -200%;*/
+    margin-left: 3%;
+    margin-top: 0.25%;
+    z-index: 100;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.lol_header .lol_header_bottom video{
+    /*width: 100%;*/
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-top: 5.7%;
+    margin-left: -20%;
+    z-index: -10;
+    overflow: hidden;
+}
+.lol_header .lol_header_bottom .a1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 160px;
+    height: 40px;
+    border: 2px solid rgb(223,178,27);
+    margin-top: 370px;
+    margin-left: 600px;
+    color: rgb(223,178,27);
+    background: #000000;
+    text-align: center;
+    padding-top: 2px;
+    opacity: 0.7;
+    text-decoration: none;
+}
+.lol_header .lol_header_bottom .a1:hover{
+    text-decoration: none;
+}
+.lol_header .lol_header_bottom .p1{
+    color: rgb(131,131,131);
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 1050px;
+    margin-top: 388px;
+}
+.lol_header .lol_header_bottom .p2{
+    color: rgb(245,209,133);
+    position: absolute;
+    left: 0;
+    top: 0;
+    margin-left: 1150px;
+    margin-top: 388px;
+}
+.lol_header .lol_header_bottom .a2{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 80px;
+    height: 25px;
+    border: 1.5px solid rgb(223,178,27);
+    margin-top: 387px;
+    margin-left: 1210px;
+    color: rgb(223,178,27);
+    background: #000000;
+    text-align: center;
+    padding-top: 2px;
+    opacity: 0.8;
+    font-size: 80%;
+    text-decoration: none;
+}
+.lol_header .lol_header_bottom .a2:hover{
+    text-decoration: none;
+}
+
+
+.lol_header .down{
+    width: 25%;
+    height: 51%;
+    float: right;
+    z-index: 100;
+    margin-right: 7.5%;
+    margin-top: -440px;
+    background: rgb(11,11,11);
+    opacity: 0.7;
+    display: none;
+}
+.lol_header .down p{
+    font-size: 110%;
+    position: absolute;
+    left: 0;
+    height: 0;
+    color: rgb(131,131,131);
+    margin-left: 930px;
+    margin-top: 110px;
+}
+.lol_header .down h5{
+    margin-top: 160px;
+    color: rgb(131,131,131);
+    font-size: 90%;
+    margin-left: 20px;
+}
+.lol_header .down div{
+    width: 100%;
+    height: 18%;
+    background: #000000;
+    opacity: 10;
+    color: #fff;
+    text-align: center;
+}
+.lol_header .down a:hover{
+    text-decoration: none;
+}
